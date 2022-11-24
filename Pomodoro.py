@@ -12,9 +12,9 @@ PINK = "#da3e3e"
 GREEN = "#50a72d"
 LIGHT_GREEN = "#50a72d"
 
-STUDY_TIME = 1  # These shouldn't be less than 1 minute for the indicator to work properly
-REST_SHORT = 1
-REST_LONG = 1
+STUDY_TIME = 25  # These shouldn't be less than 1 minute for the indicator to work properly
+REST_SHORT = 5
+REST_LONG = 30
 CURRENT_TIME = 0
 STEP = 0
 
