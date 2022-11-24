@@ -40,7 +40,7 @@ def play_music():
     for i, song in enumerate(all_mp3):
         if i == 0:
             mixer.music.load(song)
-            mixer.music.play()
+            mixer.music.play(-1)  # -1 will make music play repeteadly
         else:
             mixer.music.queue(song)
 
