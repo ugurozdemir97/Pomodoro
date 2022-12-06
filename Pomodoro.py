@@ -133,7 +133,8 @@ def send_time():
             position(REST_SHORT * 60)
             start(REST_SHORT * 60)
         else:
-            PlaySound("Flowers.wav", SND_ASYNC)
+            if not STEP == 1:
+                PlaySound("Flowers.wav", SND_ASYNC)
             position(STUDY_TIME * 60)
             start(STUDY_TIME * 60)
 
