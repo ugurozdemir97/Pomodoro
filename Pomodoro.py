@@ -214,6 +214,8 @@ window.config(bg=GREEN)
 # -------------- IMAGE ----------------- #
 
 tomato = PhotoImage(file="tomato.png")
+pomodoro = PhotoImage(file="pomodoro.png")
+window.iconphoto(True, pomodoro)  # Logo of program
 
 # ----- FRAME TO HOLD ALL WIDGETS ------ #
 
