@@ -1,0 +1,1 @@
+This is a simple program that tells you when to rest and when to study according to "pomodoro" technique. You can put musics (mp3 files) in Music folder if you want to listen to music when you are studying. You turn off the music on the top left corner. You will see tomato emojis appear above the buttons when you complete a pomodoro cycle.
